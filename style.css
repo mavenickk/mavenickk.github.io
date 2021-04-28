@@ -1,0 +1,133 @@
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#container{
+background-size:100%;
+display: flex;
+}
+#left{
+background-color:#f7f6f5;
+width: 50%;
+padding: 40px;
+}
+#left> img{
+padding-top: 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+
+}
+#right{
+width: 50%;
+display: block;
+padding-left: 200px;
+}
+navbar{
+position:static;
+display:flex;
+justify-content: space-between;
+padding-bottom: 5px;
+}
+navbar >img{
+width: 80px;
+height: 40px;
+margin-left: 3vw;
+
+}
+.navbar-right{
+padding-top: 10px;
+}
+.navbar-right >small {
+padding-top: 5px;
+padding-right: 2px;
+}
+.navbar-right > button{
+height: 25px;
+width: 70px;
+text-align: center;
+background-color: white;
+border-color: white;
+border-radius: 5px;
+box-shadow: 3px;
+}
+.navbar-right{
+display: flex;
+justify-content: space-between;
+}
+.title-form{
+text-align: left;
+margin-bottom: 5vh;
+}
+form{
+color:black;
+width: auto;
+border-radius: 20px;
+text-align: left;
+}
+@media (max-width:1100px){
+#container{
+    display: grid;
+    width: cover;
+    margin: 0;
+    padding: 0;
+}
+navbar>img{
+    margin-right: 30vw;
+}
+#left{
+   width: auto;
+}
+#right{
+    width: auto;
+    padding-left: 100px;
+}
+form{
+    display: block;
+    color:black;
+    border-radius: 20px;
+    text-align: left;
+    
+}
+}
+/*.submit-button{
+margin-left: 47%;
+margin-right: 43%;
+border-radius: 20px;
+background: green;
+color: white;
+}*/
+.form-group > button{
+text-align: center;
+display: block;
+width: 53%;
+height: 40px;
+border-radius: 4px;
+background-color:rgba(217.86, 33.527, 99.566, 1);;
+color: white;
+border-color: rgba(217.86, 33.527, 99.566, 1);;
+margin-bottom: 20px;
+margin-top: 30px;
+}
+.form-group{
+margin-bottom: 3vh;
+}
+/*.form-control{
+display: block;
+width: 100%;
+border: 10px;
+border-color: black;
+margin-top: 10px;
+
+border-radius: 5px;
+}*/
+.form-control{
+display: block;
+width: 50%;
+border-radius: 5px;
+padding: 8px;
+margin-top: 10px;
+border: 1px solid grey;
+}
